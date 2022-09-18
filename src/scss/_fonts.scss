@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Bold.eot');
+  src: local('Manrope Bold'), local('Manrope-Bold'),
+      url('../fonts/Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Manrope-Bold.woff2') format('woff2'),
+      url('../fonts/Manrope-Bold.woff') format('woff'),
+      url('../fonts/Manrope-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Regular.eot');
+  src: local('Manrope-Regular'), local('Manrope-Regular'),
+      url('../fonts/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Manrope-Regular.woff2') format('woff2'),
+      url('../fonts/Manrope-Regular.woff') format('woff'),
+      url('../fonts/Manrope-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueMachina-Bold';
+  src: url('../fonts/NeueMachina-Bold.eot');
+  src: local('Neue Machina Bold'), local('NeueMachina-Bold'),
+      url('../fonts/NeueMachina-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/NeueMachina-Bold.woff2') format('woff2'),
+      url('../fonts/NeueMachina-Bold.woff') format('woff'),
+      url('../fonts/NeueMachina-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

@@ -1,0 +1,38 @@
+include ../libs/mixin
+doctype html
+html(lang="ru")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Главная
+  body 
+    header
+      .top-header 
+        .logo-block
+          svg
+            use(xlink:href="img/sprite.svg#logo")
+          a(href="#") Московские <br>катера
+        nav.top-menu 
+          ul
+            each item in navigation
+              li.top-menu__item
+                a(href=item.link).top-menu__link=item.title
+          .burger   
+              span
+        .contacts 
+          .contacts__block
+            +svg('instagram')
+            a(href="tel:+78008672332").contacts__tel +7 (800) 867-23-32
+          .order-call 
+            a(href="#inline").button.fancybox Заказать звонок
+      .bottom-header 
+        .container
+          h1.greeting Аренда катера <br/>без капитана <br/><span>в Подмосковье</span>
+          .slogan. 
+            Стань капитаном и подари себе и своим близким <br/>незабываемые впечатления!
+          a(href="#inline").button.fancybox Забронировать
+      .more 
+        +svg('right-chevron')
+        .more__text Подробнее
+  block content

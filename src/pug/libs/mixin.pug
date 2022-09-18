@@ -1,0 +1,33 @@
+mixin svg(name)
+  svg     
+    use(xlink:href=`./img/sprite.svg#${name}`)
+
+-
+  var navigation = [
+    {
+      link: '#advantages-wrap',
+      title: 'О нас'
+    },
+
+    {
+      link: '#pricelist',
+      title: 'Условия и цены'
+    },
+
+    {
+      link: '#gallery-wrap',
+      title: 'Фото'
+    },
+
+    {
+      link: '#faq-wrap',
+      title: 'Вопрос-ответ'
+    },
+    {
+      link: '#map-wrap',
+      title: 'Контакты'
+    },
+  ];
+
+block vars 
+  - var pageTitle = 'test';
